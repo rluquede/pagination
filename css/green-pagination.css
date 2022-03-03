@@ -1,0 +1,57 @@
+/* https://www.w3schools.com/css/css3_pagination.asp# */
+
+.title{
+    background-color: #4CAF50;
+}
+.title a{
+    text-decoration: none;
+    color: white;
+}
+
+#keywords{
+    border: 0.5px gray solid;
+    border-radius: 2px;
+}
+.table{
+    margin-top: 5px;
+}
+.table ,tr,th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+div.pagination {
+    margin-top: 20px;
+}
+
+div.pagination a {
+    background-color: white !important;
+}
+
+div.pagination a:hover {
+    color: #4CAF50 !important;
+    background-color: #ddd !important;
+}
+
+div.pagination a, b {
+    color: black;
+    font-weight: bolder;
+    padding: 8px 16px !important;
+    border: 1px solid #ddd !important;
+}
+
+div.pagination b.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+div.pagination a:nth-child(2) {
+    border-top-left-radius: 15px !important;
+    border-bottom-left-radius: 15px !important;
+}
+
+div.pagination a:last-child {
+    border-top-right-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
+}
